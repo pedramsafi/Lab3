@@ -148,7 +148,7 @@ class AdaRRT():
 
     def _check_for_completion(self, node):
         """
-        Check whether node is within self.step_size distance of the goal.
+        Check whether node is within self.goal_precision distance of the goal.
 
         :param node: The target Node
         :returns: Boolean indicating node is close enough for completion.
